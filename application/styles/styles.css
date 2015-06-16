@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 1, 2015, 2:41:53 PM
+    Author     : brauliomeyer
+*/
+            ::selection{background-color: #E13300; color: white;}
+            ::moz-selection{background-color: #E13300; color: white;}
+            ::webkit-selection{background-color: #E13300; color: white;}
+
+            body, html {
+                margin: 0;
+                padding: 0;
+            }
+                
+            body {
+                background-color: #fff;
+                margin: 40px;
+                font: 13px/20px normal Helvetica, Arial, sans-serif;
+                color: #4f5155;                
+            }   
+
+            a {
+                color: #003399;
+                background-color: transparent;
+                font-weight: normal;
+                list-style: none;
+            }
+
+            .header {
+                text-align: right;
+            }
+
+            h1 {
+                color: #8AC007;
+                background-color: transparent;
+                border-bottom: 1px solid #D0D0D0;
+                font-size: 19px;
+                font-weight:  normal;
+                margin: 0 0 14px 0;
+                padding: 14px 15px 10px 15px;
+            }
+
+            code {
+                font-family: Consolas, Monaco, Courier New, Courier, monospace;
+                font-size: 12px;
+                background-color: #f9f9f9;
+                border: 1px solid #D0D0D0;
+                color: #002166;
+                display: block;
+                margin: 14px 0 14px 0;
+                padding: 12px 10px 12px 10px;
+            }
+
+            #body {
+                margin: 0 15px 0 15px;
+            }
+
+            p.footer {
+                text-align: center;
+                font-size: 11px;
+                //border-top: 1px solid #D0D0D0;
+                line-height: 32px;
+                padding: 0 10px 0 10px;
+                margin: 20px 0 0 0;
+            }
+            #container {
+                margin: 10px;
+                border: 1px solid #D0D0D0;
+                -webkit-box-shadow: 0 0 8px #D0D0D0;
+                border-radius: 25px;
+                border: 2px solid #8AC007;
+                padding: 20px; 
+
+            }
+            #nav {
+                margin: 50px auto 30px auto;
+                width: 1000px;
+                background-color: #888;
+                height: 15px;
+                padding: 20px;
+            }
+            #nav a:hover {
+                //color: greenyellow;
+                color: #8AC007;
+            }
+            #nav a:selected {
+                color: red;
+            }
+            #nav ul {
+                list-style: none;
+                float: left;
+                margin: 0 50px;
+            }
+            #nav ul li {
+                display: inline;
+            }
+            #nav a {
+                list-style: none;
+                text-decoration: none;
+                margin: 10px;
+            }
+            #content {
+                width: 1000px;
+                min-height: 100%;
+                margin: 0 auto;
+                padding: 20px; 
+            }
+            #contact {
+                width: 170px;
+                min-height: 100%;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            
+            .footer {
+                border-top: 1px solid #D0D0D0;
+                margin-top: 30px;
+            }
+            #footer {
+                width: 400px;
+                height: 15px;
+                margin: 0 auto;
+                padding: 20px;
+                color: #8AC007;
+            }
